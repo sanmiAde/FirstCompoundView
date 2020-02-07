@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/checkbox"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp">
+
+    </com.google.android.material.checkbox.MaterialCheckBox>
+<androidx.cardview.widget.CardView
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="16dp">
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/input_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.AppCompatEditText>
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+</merge>
